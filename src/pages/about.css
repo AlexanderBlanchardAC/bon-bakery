@@ -1,0 +1,143 @@
+.aboutOpeningTimes {
+    display: grid;
+    grid-template-columns: repeat(2, 100px);
+    grid-template-rows: 40px 40px 40px 40px 40px 40px 40px;
+  
+    align-items: center;
+   padding: 1rem;
+}
+
+.aboutContainer {
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #33ccff;
+}
+
+.aboutContent {
+ padding: 2rem;
+ display: flex;
+ flex-direction: column;
+}
+
+.aboutDesc {
+    margin-bottom: 1rem;
+    font-weight: 300;
+}
+
+.openingTimesSection {
+  
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+    align-self: center;
+}
+
+.openingTimesSection h4 {
+    margin-bottom: 1rem;
+}
+
+.gridItem1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.gridItem2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.gridItem3 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.gridItem4 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.gridItem5 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.gridItem6 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.gridItem7 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+.gridItem8 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+.gridItem9 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+
+.gridItem10 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+
+.gridItem11 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 6;
+    grid-row-end: 7;
+}
+
+.gridItem12 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 6;
+    grid-row-end: 7;
+}
+.gridItem13 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 7;
+    grid-row-end: 8;
+}
+
+.gridItem14 {
+    grid-column-start: 2;
+    grid-column-end:32;
+    grid-row-start: 7;
+    grid-row-end: 8;
+}
+
+.title {
+    font-family: "Dancing Script";
+    color: #33ccff;
+    margin-bottom: 1rem;
+}

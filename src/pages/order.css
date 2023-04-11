@@ -1,0 +1,117 @@
+.orderContainer {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h4 {
+    font-size: 1.5rem;
+    font-family: "Dancing Script", sans-serif;
+    color: #33ccff;
+    margin-bottom: 1rem;
+}
+
+img {
+    width:180px;
+    height: 180px;
+}
+
+.toOrder {
+    margin-top: 1rem;
+    width: 400px;
+    font-weight: 300;
+}
+
+.options {
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 200px 200px 200px;
+    border: 2px solid #33ccff;
+    padding: 1rem;
+}
+
+.option {
+    width: 200px;
+    height: 200px;
+   
+   
+}
+#sandwichPlatter  {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+.sandwichText {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+#breakfastPlatter {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.breakfastText {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+#tea {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.teaText {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.titleOrder {
+    font-size: 1rem; 
+    font-weight: 500;
+}
+
+.sandwichText p,
+.breakfastText p,
+.teaText p {
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+
+.nums {
+    font-weight: 500;
+}
+
+@media screen and (max-width: 447px) {
+    .options {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .sandwichText, 
+    .breakfastText,
+    .teaText {
+        margin-bottom: 1.5rem;
+        border-bottom: 1px solid #33ccff;
+    }
+
+    .toOrder {
+        width: 350px;
+        font-size: 0.9rem;
+    }
+} 

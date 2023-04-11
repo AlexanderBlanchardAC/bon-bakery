@@ -1,0 +1,68 @@
+.contactContainer {
+    padding: 2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.addressContainer {
+   
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    padding: 1rem;
+    text-align: left;
+}
+
+.contactTitle {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-family: "Dancing Script", sans-serif;
+    color: #33ccff;
+}
+
+.address {
+    width: fit-content;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: left;
+    font-weight: 300;
+}
+
+.address p {
+    padding: 0.2rem 0;
+}
+
+.phone {
+    margin-top: 0.5rem;
+    text-align: left;
+   margin-bottom: 1rem;
+}
+
+.socials {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.socials img {
+    height:60px;
+    width: 70px;
+    padding-right: 1rem;;
+}
+
+
+
+.phone p {
+    font-weight: 300;
+}
+
+.number {
+    font-weight: 600;
+}
+
+.email {
+    font-weight: 600;
+    margin-bottom: 1rem;
+}

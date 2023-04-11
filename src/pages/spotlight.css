@@ -1,0 +1,47 @@
+.spotlightSection {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.spotlightItem {
+    width: 300px;
+    height: 300px;
+    border: 1px solid #33ccff;
+    border-radius: 2px;
+    margin: 1rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+}
+
+.spotlightItem img {
+    margin-bottom: 1rem;
+    border-radius: 2px;
+}
+
+h4 {
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: "Dancing Script";
+    color: #33ccff;
+}
+
+.spotlightItem p {
+    font-weight: 300;
+}
+
+@media screen and (min-width: 700px) {
+    .spotlightItem {
+        display: flex;
+        flex-direction: row;
+        width: 600px;
+    }
+
+    .spotlightItem img {
+        margin-right: 1rem;
+    }
+}
