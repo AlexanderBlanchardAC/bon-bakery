@@ -2,11 +2,11 @@ import React from 'react';
 import "./contact.css";
 import facebook from "../assets/facebook.png";
 import instagram from "../assets/instagram.png";
-import { Link , useNavigate} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Contact = () => {
 
-    const navigate = useNavigate()
+ 
   return (
     <div className="contactContainer">
         
